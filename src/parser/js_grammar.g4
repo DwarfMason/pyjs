@@ -72,7 +72,7 @@ grammar js_grammar;
     
     private void notImplemented()
     {
-        throw new NotImplementedException("This lexem construction doesn't supported");
+        throw new NotImplementedException("This lexem construction is not implemented");
     }
 }
 
@@ -130,7 +130,7 @@ grammar js_grammar;
     
     private void notImplemented()
     {
-        throw new NotImplementedException("This grammar construction doesn't supported");
+        throw new NotImplementedException("This lexem construction is not implemented");
     }
 }
 

@@ -53,105 +53,6 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#importStatement.
-    def enterImportStatement(self, ctx:js_grammarParser.ImportStatementContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#importStatement.
-    def exitImportStatement(self, ctx:js_grammarParser.ImportStatementContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#importFromBlock.
-    def enterImportFromBlock(self, ctx:js_grammarParser.ImportFromBlockContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#importFromBlock.
-    def exitImportFromBlock(self, ctx:js_grammarParser.ImportFromBlockContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#moduleItems.
-    def enterModuleItems(self, ctx:js_grammarParser.ModuleItemsContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#moduleItems.
-    def exitModuleItems(self, ctx:js_grammarParser.ModuleItemsContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#importDefault.
-    def enterImportDefault(self, ctx:js_grammarParser.ImportDefaultContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#importDefault.
-    def exitImportDefault(self, ctx:js_grammarParser.ImportDefaultContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#importNamespace.
-    def enterImportNamespace(self, ctx:js_grammarParser.ImportNamespaceContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#importNamespace.
-    def exitImportNamespace(self, ctx:js_grammarParser.ImportNamespaceContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#importFrom.
-    def enterImportFrom(self, ctx:js_grammarParser.ImportFromContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#importFrom.
-    def exitImportFrom(self, ctx:js_grammarParser.ImportFromContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#aliasName.
-    def enterAliasName(self, ctx:js_grammarParser.AliasNameContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#aliasName.
-    def exitAliasName(self, ctx:js_grammarParser.AliasNameContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#ExportDeclaration.
-    def enterExportDeclaration(self, ctx:js_grammarParser.ExportDeclarationContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#ExportDeclaration.
-    def exitExportDeclaration(self, ctx:js_grammarParser.ExportDeclarationContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#ExportDefaultDeclaration.
-    def enterExportDefaultDeclaration(self, ctx:js_grammarParser.ExportDefaultDeclarationContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#ExportDefaultDeclaration.
-    def exitExportDefaultDeclaration(self, ctx:js_grammarParser.ExportDefaultDeclarationContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#exportFromBlock.
-    def enterExportFromBlock(self, ctx:js_grammarParser.ExportFromBlockContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#exportFromBlock.
-    def exitExportFromBlock(self, ctx:js_grammarParser.ExportFromBlockContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#declaration.
-    def enterDeclaration(self, ctx:js_grammarParser.DeclarationContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#declaration.
-    def exitDeclaration(self, ctx:js_grammarParser.DeclarationContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#variableStatement.
     def enterVariableStatement(self, ctx:js_grammarParser.VariableStatementContext):
         pass
@@ -176,6 +77,15 @@ class js_grammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by js_grammarParser#variableDeclaration.
     def exitVariableDeclaration(self, ctx:js_grammarParser.VariableDeclarationContext):
+        pass
+
+
+    # Enter a parse tree produced by js_grammarParser#initialiser.
+    def enterInitialiser(self, ctx:js_grammarParser.InitialiserContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#initialiser.
+    def exitInitialiser(self, ctx:js_grammarParser.InitialiserContext):
         pass
 
 
@@ -233,12 +143,30 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by js_grammarParser#ForVarStatement.
+    def enterForVarStatement(self, ctx:js_grammarParser.ForVarStatementContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#ForVarStatement.
+    def exitForVarStatement(self, ctx:js_grammarParser.ForVarStatementContext):
+        pass
+
+
     # Enter a parse tree produced by js_grammarParser#ForInStatement.
     def enterForInStatement(self, ctx:js_grammarParser.ForInStatementContext):
         pass
 
     # Exit a parse tree produced by js_grammarParser#ForInStatement.
     def exitForInStatement(self, ctx:js_grammarParser.ForInStatementContext):
+        pass
+
+
+    # Enter a parse tree produced by js_grammarParser#ForVarInStatement.
+    def enterForVarInStatement(self, ctx:js_grammarParser.ForVarInStatementContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#ForVarInStatement.
+    def exitForVarInStatement(self, ctx:js_grammarParser.ForVarInStatementContext):
         pass
 
 
@@ -275,15 +203,6 @@ class js_grammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by js_grammarParser#returnStatement.
     def exitReturnStatement(self, ctx:js_grammarParser.ReturnStatementContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#yieldStatement.
-    def enterYieldStatement(self, ctx:js_grammarParser.YieldStatementContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#yieldStatement.
-    def exitYieldStatement(self, ctx:js_grammarParser.YieldStatementContext):
         pass
 
 
@@ -404,66 +323,12 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#classDeclaration.
-    def enterClassDeclaration(self, ctx:js_grammarParser.ClassDeclarationContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#classDeclaration.
-    def exitClassDeclaration(self, ctx:js_grammarParser.ClassDeclarationContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#classTail.
-    def enterClassTail(self, ctx:js_grammarParser.ClassTailContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#classTail.
-    def exitClassTail(self, ctx:js_grammarParser.ClassTailContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#classElement.
-    def enterClassElement(self, ctx:js_grammarParser.ClassElementContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#classElement.
-    def exitClassElement(self, ctx:js_grammarParser.ClassElementContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#methodDefinition.
-    def enterMethodDefinition(self, ctx:js_grammarParser.MethodDefinitionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#methodDefinition.
-    def exitMethodDefinition(self, ctx:js_grammarParser.MethodDefinitionContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#formalParameterList.
     def enterFormalParameterList(self, ctx:js_grammarParser.FormalParameterListContext):
         pass
 
     # Exit a parse tree produced by js_grammarParser#formalParameterList.
     def exitFormalParameterList(self, ctx:js_grammarParser.FormalParameterListContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#formalParameterArg.
-    def enterFormalParameterArg(self, ctx:js_grammarParser.FormalParameterArgContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#formalParameterArg.
-    def exitFormalParameterArg(self, ctx:js_grammarParser.FormalParameterArgContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#lastFormalParameterArg.
-    def enterLastFormalParameterArg(self, ctx:js_grammarParser.LastFormalParameterArgContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#lastFormalParameterArg.
-    def exitLastFormalParameterArg(self, ctx:js_grammarParser.LastFormalParameterArgContext):
         pass
 
 
@@ -503,12 +368,12 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#arrayElement.
-    def enterArrayElement(self, ctx:js_grammarParser.ArrayElementContext):
+    # Enter a parse tree produced by js_grammarParser#elision.
+    def enterElision(self, ctx:js_grammarParser.ElisionContext):
         pass
 
-    # Exit a parse tree produced by js_grammarParser#arrayElement.
-    def exitArrayElement(self, ctx:js_grammarParser.ArrayElementContext):
+    # Exit a parse tree produced by js_grammarParser#elision.
+    def exitElision(self, ctx:js_grammarParser.ElisionContext):
         pass
 
 
@@ -521,30 +386,21 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by js_grammarParser#propertyNameAndValueList.
+    def enterPropertyNameAndValueList(self, ctx:js_grammarParser.PropertyNameAndValueListContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#propertyNameAndValueList.
+    def exitPropertyNameAndValueList(self, ctx:js_grammarParser.PropertyNameAndValueListContext):
+        pass
+
+
     # Enter a parse tree produced by js_grammarParser#PropertyExpressionAssignment.
     def enterPropertyExpressionAssignment(self, ctx:js_grammarParser.PropertyExpressionAssignmentContext):
         pass
 
     # Exit a parse tree produced by js_grammarParser#PropertyExpressionAssignment.
     def exitPropertyExpressionAssignment(self, ctx:js_grammarParser.PropertyExpressionAssignmentContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#ComputedPropertyExpressionAssignment.
-    def enterComputedPropertyExpressionAssignment(self, ctx:js_grammarParser.ComputedPropertyExpressionAssignmentContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#ComputedPropertyExpressionAssignment.
-    def exitComputedPropertyExpressionAssignment(self, ctx:js_grammarParser.ComputedPropertyExpressionAssignmentContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#FunctionProperty.
-    def enterFunctionProperty(self, ctx:js_grammarParser.FunctionPropertyContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#FunctionProperty.
-    def exitFunctionProperty(self, ctx:js_grammarParser.FunctionPropertyContext):
         pass
 
 
@@ -566,21 +422,21 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#PropertyShorthand.
-    def enterPropertyShorthand(self, ctx:js_grammarParser.PropertyShorthandContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#PropertyShorthand.
-    def exitPropertyShorthand(self, ctx:js_grammarParser.PropertyShorthandContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#propertyName.
     def enterPropertyName(self, ctx:js_grammarParser.PropertyNameContext):
         pass
 
     # Exit a parse tree produced by js_grammarParser#propertyName.
     def exitPropertyName(self, ctx:js_grammarParser.PropertyNameContext):
+        pass
+
+
+    # Enter a parse tree produced by js_grammarParser#propertySetParameterList.
+    def enterPropertySetParameterList(self, ctx:js_grammarParser.PropertySetParameterListContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#propertySetParameterList.
+    def exitPropertySetParameterList(self, ctx:js_grammarParser.PropertySetParameterListContext):
         pass
 
 
@@ -611,15 +467,6 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#TemplateStringExpression.
-    def enterTemplateStringExpression(self, ctx:js_grammarParser.TemplateStringExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#TemplateStringExpression.
-    def exitTemplateStringExpression(self, ctx:js_grammarParser.TemplateStringExpressionContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#TernaryExpression.
     def enterTernaryExpression(self, ctx:js_grammarParser.TernaryExpressionContext):
         pass
@@ -638,15 +485,6 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#PowerExpression.
-    def enterPowerExpression(self, ctx:js_grammarParser.PowerExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#PowerExpression.
-    def exitPowerExpression(self, ctx:js_grammarParser.PowerExpressionContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#PreIncrementExpression.
     def enterPreIncrementExpression(self, ctx:js_grammarParser.PreIncrementExpressionContext):
         pass
@@ -662,15 +500,6 @@ class js_grammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by js_grammarParser#ObjectLiteralExpression.
     def exitObjectLiteralExpression(self, ctx:js_grammarParser.ObjectLiteralExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#MetaExpression.
-    def enterMetaExpression(self, ctx:js_grammarParser.MetaExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#MetaExpression.
-    def exitMetaExpression(self, ctx:js_grammarParser.MetaExpressionContext):
         pass
 
 
@@ -716,15 +545,6 @@ class js_grammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by js_grammarParser#ArgumentsExpression.
     def exitArgumentsExpression(self, ctx:js_grammarParser.ArgumentsExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#AwaitExpression.
-    def enterAwaitExpression(self, ctx:js_grammarParser.AwaitExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#AwaitExpression.
-    def exitAwaitExpression(self, ctx:js_grammarParser.AwaitExpressionContext):
         pass
 
 
@@ -809,15 +629,6 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#ImportExpression.
-    def enterImportExpression(self, ctx:js_grammarParser.ImportExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#ImportExpression.
-    def exitImportExpression(self, ctx:js_grammarParser.ImportExpressionContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#EqualityExpression.
     def enterEqualityExpression(self, ctx:js_grammarParser.EqualityExpressionContext):
         pass
@@ -833,15 +644,6 @@ class js_grammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by js_grammarParser#BitXOrExpression.
     def exitBitXOrExpression(self, ctx:js_grammarParser.BitXOrExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#SuperExpression.
-    def enterSuperExpression(self, ctx:js_grammarParser.SuperExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#SuperExpression.
-    def exitSuperExpression(self, ctx:js_grammarParser.SuperExpressionContext):
         pass
 
 
@@ -899,15 +701,6 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#YieldExpression.
-    def enterYieldExpression(self, ctx:js_grammarParser.YieldExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#YieldExpression.
-    def exitYieldExpression(self, ctx:js_grammarParser.YieldExpressionContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#BitNotExpression.
     def enterBitNotExpression(self, ctx:js_grammarParser.BitNotExpressionContext):
         pass
@@ -950,15 +743,6 @@ class js_grammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by js_grammarParser#MemberDotExpression.
     def exitMemberDotExpression(self, ctx:js_grammarParser.MemberDotExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#ClassExpression.
-    def enterClassExpression(self, ctx:js_grammarParser.ClassExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#ClassExpression.
-    def exitClassExpression(self, ctx:js_grammarParser.ClassExpressionContext):
         pass
 
 
@@ -1016,69 +800,6 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by js_grammarParser#CoalesceExpression.
-    def enterCoalesceExpression(self, ctx:js_grammarParser.CoalesceExpressionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#CoalesceExpression.
-    def exitCoalesceExpression(self, ctx:js_grammarParser.CoalesceExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#assignable.
-    def enterAssignable(self, ctx:js_grammarParser.AssignableContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#assignable.
-    def exitAssignable(self, ctx:js_grammarParser.AssignableContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#FunctionDecl.
-    def enterFunctionDecl(self, ctx:js_grammarParser.FunctionDeclContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#FunctionDecl.
-    def exitFunctionDecl(self, ctx:js_grammarParser.FunctionDeclContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#AnoymousFunctionDecl.
-    def enterAnoymousFunctionDecl(self, ctx:js_grammarParser.AnoymousFunctionDeclContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#AnoymousFunctionDecl.
-    def exitAnoymousFunctionDecl(self, ctx:js_grammarParser.AnoymousFunctionDeclContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#ArrowFunction.
-    def enterArrowFunction(self, ctx:js_grammarParser.ArrowFunctionContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#ArrowFunction.
-    def exitArrowFunction(self, ctx:js_grammarParser.ArrowFunctionContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#arrowFunctionParameters.
-    def enterArrowFunctionParameters(self, ctx:js_grammarParser.ArrowFunctionParametersContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#arrowFunctionParameters.
-    def exitArrowFunctionParameters(self, ctx:js_grammarParser.ArrowFunctionParametersContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#arrowFunctionBody.
-    def enterArrowFunctionBody(self, ctx:js_grammarParser.ArrowFunctionBodyContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#arrowFunctionBody.
-    def exitArrowFunctionBody(self, ctx:js_grammarParser.ArrowFunctionBodyContext):
-        pass
-
-
     # Enter a parse tree produced by js_grammarParser#assignmentOperator.
     def enterAssignmentOperator(self, ctx:js_grammarParser.AssignmentOperatorContext):
         pass
@@ -1103,15 +824,6 @@ class js_grammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by js_grammarParser#numericLiteral.
     def exitNumericLiteral(self, ctx:js_grammarParser.NumericLiteralContext):
-        pass
-
-
-    # Enter a parse tree produced by js_grammarParser#bigintLiteral.
-    def enterBigintLiteral(self, ctx:js_grammarParser.BigintLiteralContext):
-        pass
-
-    # Exit a parse tree produced by js_grammarParser#bigintLiteral.
-    def exitBigintLiteral(self, ctx:js_grammarParser.BigintLiteralContext):
         pass
 
 
@@ -1142,12 +854,48 @@ class js_grammarListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by js_grammarParser#futureReservedWord.
+    def enterFutureReservedWord(self, ctx:js_grammarParser.FutureReservedWordContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#futureReservedWord.
+    def exitFutureReservedWord(self, ctx:js_grammarParser.FutureReservedWordContext):
+        pass
+
+
+    # Enter a parse tree produced by js_grammarParser#getter.
+    def enterGetter(self, ctx:js_grammarParser.GetterContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#getter.
+    def exitGetter(self, ctx:js_grammarParser.GetterContext):
+        pass
+
+
+    # Enter a parse tree produced by js_grammarParser#setter.
+    def enterSetter(self, ctx:js_grammarParser.SetterContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#setter.
+    def exitSetter(self, ctx:js_grammarParser.SetterContext):
+        pass
+
+
     # Enter a parse tree produced by js_grammarParser#eos.
     def enterEos(self, ctx:js_grammarParser.EosContext):
         pass
 
     # Exit a parse tree produced by js_grammarParser#eos.
     def exitEos(self, ctx:js_grammarParser.EosContext):
+        pass
+
+
+    # Enter a parse tree produced by js_grammarParser#eof.
+    def enterEof(self, ctx:js_grammarParser.EofContext):
+        pass
+
+    # Exit a parse tree produced by js_grammarParser#eof.
+    def exitEof(self, ctx:js_grammarParser.EofContext):
         pass
 
 
