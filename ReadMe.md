@@ -2,7 +2,11 @@
 
 
 This is an Educational project of a FEFU student Balashenko Igor.
-Programing language: Python3
-IDE: PyCharm
+> Programing language: Python3
+> IDE: PyCharm
 
-Readme will be updated as soon as features will be implemented.
+To install all dependences and make antlr4 files just perform a simple script in the project`s home directory
+
+```sh
+python3 setup.py
+```
