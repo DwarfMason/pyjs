@@ -7,5 +7,6 @@ class KeysParser:
                                 action="store_true")
         args = key_parser.parse_args()
         if args.info:
+            print(args.info)
             print("Created by Dwarf Mason. https://github.com/dwarfmason")
 

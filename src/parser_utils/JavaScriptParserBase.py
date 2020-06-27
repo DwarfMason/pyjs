@@ -4,7 +4,7 @@ from antlr4 import *
 
 class JavaScriptParserBase(Parser):
     def notImplemented(self):
-        raise Exception("This parser construction is not implemented!")
+        raise Exception("This parser_utils construction is not implemented!")
 
     def p(self, s : str) -> bool:
         return self.prev(s)
@@ -35,13 +35,13 @@ class JavaScriptParserBase(Parser):
 
     def here(self, tokenType: int) -> bool:
         """
-        Returns {@code true} iff on the current index of the parser's
+        Returns {@code true} iff on the current index of the parser_utils's
         token stream a token of the given {@code type} exists on the
         {@code HIDDEN} channel.
         :param:type:
                    the type of the token on the {@code HIDDEN} channel
                    to check.
-        :return:{@code true} iff on the current index of the parser's
+        :return:{@code true} iff on the current index of the parser_utils's
             token stream a token of the given {@code type} exists on the
             {@code HIDDEN} channel.
         """
@@ -56,11 +56,11 @@ class JavaScriptParserBase(Parser):
 
     def lineTerminatorAhead(self) -> bool:
         """
-        Returns {@code true} iff on the current index of the parser's
+        Returns {@code true} iff on the current index of the parser_utils's
         token stream a token exists on the {@code HIDDEN} channel which
         either is a line terminator, or is a multi line comment that
         contains a line terminator.
-        :return: {@code true} iff on the current index of the parser's
+        :return: {@code true} iff on the current index of the parser_utils's
         token stream a token exists on the {@code HIDDEN} channel which
         either is a line terminator, or is a multi line comment that
         contains a line terminator.

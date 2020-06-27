@@ -23,7 +23,7 @@ class JavaScriptLexerBase(Lexer):
         self.useStrictCurrent = False
 
     def notImplemented(self):
-        raise Exception("This parser construction is not implemented!")
+        raise Exception("This parser_utils construction is not implemented!")
 
     def getStrictDefault(self) -> bool:
         return self.useStrictDefault

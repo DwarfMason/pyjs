@@ -1,22 +1,7 @@
-from antlr4 import *
-import sys
-from src.parser.JavaScriptLexer import JavaScriptLexer
-from src.parser.JavaScriptParser import JavaScriptParser
-from src.parser.JavaScriptParserListener import JavaScriptParserListener
+from src.FileParser import parse_file
+from src.ast_printer.ast_printer import get_ast, print_ast
 
-
-class HelloPrintListener(JavaScriptParserListener):
-    def enterHi(self):
-        print("\nSuccess!")
-
-def main():
-    lexer = JavaScriptLexer(StdinStream()) #Input your text, then press enter and ctrl+d to test
-    stream = CommonTokenStream(lexer)
-    parser = JavaScriptParser(stream)
-    tree = parser.program()
-    printer = HelloPrintListener()
-    walker = ParseTreeWalker()
-    walker.walk(printer, tree)
-
-if __name__ == '__main__':
-    main()
+parsed_tuple = parse_file("test.js")
+parse_tree = parsed_tuple[1]
+ast_tree = get_ast(parse_tree)
+print_ast(ast_tree)
