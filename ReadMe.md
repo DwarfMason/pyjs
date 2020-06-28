@@ -10,3 +10,9 @@ To install all dependences and make antlr4 files just perform a simple script in
 ```sh
 python3 setup.py
 ```
+
+To run AST tests use in the project root folder
+
+```sh
+python3 -m pytest tests/ast_tests.py
+```
